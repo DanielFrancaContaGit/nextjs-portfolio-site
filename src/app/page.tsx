@@ -13,17 +13,17 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Baner/>
-      <SobreSecssion/>
-      <Estatistica/>
-      <Recursos/>
-      <Desenvolvedor/>
-      <CTA/>
-      <Contato/>
-      <CourseList/>
-      <Galeria/>
-      <Footer/>
+      <Navbar />
+      <Baner />
+      <SobreSecssion />
+      <Estatistica />
+      <Recursos />
+      <Desenvolvedor />
+      <CTA />
+      <Contato />
+      <CourseList />
+      <Galeria />
+      <Footer />
     </div>
   );
 }
