@@ -3,7 +3,7 @@ export default function Baner() {
        
         <div className="hero min-h-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
             <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content flex  items-start flex-col  text-neutral-content ">
+            <div className="hero-content flex items-start flex-col text-neutral-content ">
                 <div className="w-3/6">
                     <h1 className="text-5xl font-bold">
                         Desenvolvedor de Software experient e apaixonado

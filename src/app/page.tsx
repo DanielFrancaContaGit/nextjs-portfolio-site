@@ -1,18 +1,29 @@
 import Navbar from "./components/navbar";
 import Baner from "./components/baner";
+import SobreSecssion from "./components/sobresecssion";
+import Estatistica from "./components/estatistica";
+import Recursos from "./components/recursos";
+import CourseList from "./components/courselist";
+import Desenvolvedor from "./components/desenvolvedor";
+import CTA from "./components/ctasecssion";
+import Contato from "./components/contato";
+import Galeria from "./components/galeria";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
       <Baner/>
-      <main className="flex min-h-screen flex-col items-center justify-center p-24">
-        <h1 className="text-5xl">Oi mundo</h1>
-      <a className="mt-5" href="/login">
-        <button className="btn btn-secondary">Login</button>
-      </a>
-      </main>
-      
+      <SobreSecssion/>
+      <Estatistica/>
+      <Recursos/>
+      <Desenvolvedor/>
+      <CTA/>
+      <Contato/>
+      <CourseList/>
+      <Galeria/>
+      <Footer/>
     </div>
   );
 }
